@@ -1,0 +1,38 @@
+﻿body {
+   background:#fafafa;
+}
+
+main {
+   max-width: 1080px;
+   display:flex;
+   flex-direction:column;
+   padding: 6rem;
+}
+
+@media only screen and (max-width: 950px) and (min-width: 451px) {
+   body {
+      background: #fafafa;
+   }
+
+   main {
+      max-width: 1080px;
+      display: flex;
+      flex-direction: column;
+      padding: 6rem;
+   }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+   body {
+      background: #faaab2;
+   }
+
+   main {
+      max-width: 1080px;
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+   }
+}
