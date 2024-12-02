@@ -1,3 +1,4 @@
+using eomserver;
 using Microsoft.AspNetCore.StaticFiles;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,12 +36,11 @@ app.MapGet("/", () =>
    return Results.Content(html, "text/html");
 });
 
-//app.MapGet("/static/{*path}", (string path) =>
-//{
-//    return PhysicalFile("wwwroot/" + path, "text/plain");
-//});
-
-
+app.MapGet("/crintt", () =>
+{
+   string html = new CrinttPage("Crintt.com", new CrinttPageComponents()).Print();
+   
+   return Results.Content(html, "text/html");
+});
 
 app.Run();
-
