@@ -9,23 +9,12 @@
       }
    },
    "profiles": {
-      "http": {
-         "commandName": "Project",
-         "dotnetRunMessages": true,
-         "launchBrowser": true,
-         "launchUrl": "",
-         "applicationUrl": "http://*:8080",
-         //"applicationUrl": "http://localhost:8080",
-         "environmentVariables": {
-            "ASPNETCORE_ENVIRONMENT": "Production"
-         }
-      },
       "https": {
          "commandName": "Project",
          "dotnetRunMessages": true,
          "launchBrowser": true,
          "launchUrl": "",
-         "applicationUrl": "https://*:8080",
+         "applicationUrl": "https://*:443",
          //"applicationUrl": "http://localhost:8080",
          "environmentVariables": {
             "ASPNETCORE_ENVIRONMENT": "Production"
