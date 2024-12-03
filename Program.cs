@@ -1,5 +1,4 @@
 using eomserver;
-using Microsoft.AspNetCore.StaticFiles;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
